@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'org.agyei.richard'
+version '1.0.0-SNAPSHOT'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+// reflections: https://github.com/ronmamo/reflections
+
+dependencies {
+    implementation("com.google.inject:guice:4.2.2")
+    implementation("com.google.guava:guava:28.1-jre")
+}
